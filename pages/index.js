@@ -5,7 +5,7 @@ export default function Home() {
         <p className="text-gray-700 text-3xl font-semibold">Hello, Jonas!</p>
         <p className="text-slate-900 text-lg mb-16">Welcome to Factually</p>
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          <div className="col-span-2 row-span-4 rounded bg-white shadow-sm">nice1</div>
+          <div className="col-span-2 row-span-4 rounded h-50 bg-white shadow-sm">nice1</div>
           <div className="rounded h-40 shadow-sm h-60 w-60">
             <p>Missions</p>
             <div class="mission-box">
