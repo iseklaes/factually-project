@@ -1,13 +1,13 @@
 export default function Home() {
   return (
     <>
-      <body>
-        <p className="text-gray-700 text-4xl font-semibold">Hello, Jonas!</p>
-        <p className="text-slate-900 text-lg mb-15">Welcome to Factually</p>
+      <p className="text-gray-700 text-4xl font-semibold">Hello, Jonas!</p>
+      <p className="text-slate-900 text-lg mb-15">Welcome to Factually</p>
+      <div className="container w-auto">
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           <div className="col-span-2 row-span-4 rounded h-50 p-8 shadow-sm">
             <p className="text-slate-900 text-3xl mb-5 font-bold">Activity 1</p>
-            <div className="grid">
+            <div className="grid grid-rows-1">
               <div className="card w-60 bg-base-100 shadow-xl">
               <figure><img src="https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2020/07/02030224/mediaimgblog.jpg" alt="Shoes" /></figure>
               <div className="card-body">
@@ -22,7 +22,7 @@ export default function Home() {
             
           </div>
           <div className="rounded h-40 shadow-sm h-60 w-60">
-            <p>Missions</p>
+            <p className="text-slate-900 text-lg mb-15">Missions</p>
             <div class="mission-box">
               <div class="flex items-center">
                 
@@ -73,11 +73,10 @@ export default function Home() {
             </div>
           </div>
           <div className="rounded text-center bg-white h-60 w-60 shadow-sm p-6 mt-10">
-            <h2 className="pb-3">Level 1</h2>
-            <div className="radial-progress bg-green-600 text-primary-content border-4 border-green-600" style={{"--value":25}}>25/200</div></div>
+            <p className="text-slate-900 text-lg mb-15 pb-3 font-bold">Level 1</p>
+            <div className="radial-progress bg-green-600 text-primary-content border-4 border-green-600 font-bold" style={{"--value":25, "--size":"9rem"}}>25/200</div></div>
         </div>
-      </body>
-      
+      </div>
     </>
   );
 }
