@@ -2,10 +2,25 @@ export default function Home() {
   return (
     <>
       <body>
-        <p className="text-gray-700 text-3xl font-semibold">Hello, Jonas!</p>
-        <p className="text-slate-900 text-lg mb-16">Welcome to Factually</p>
+        <p className="text-gray-700 text-4xl font-semibold">Hello, Jonas!</p>
+        <p className="text-slate-900 text-lg mb-15">Welcome to Factually</p>
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          <div className="col-span-2 row-span-4 rounded h-50 bg-white shadow-sm">nice1</div>
+          <div className="col-span-2 row-span-4 rounded h-50 p-8 shadow-sm">
+            <p className="text-slate-900 text-3xl mb-5 font-bold">Activity 1</p>
+            <div className="grid">
+              <div className="card w-60 bg-base-100 shadow-xl">
+              <figure><img src="https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2020/07/02030224/mediaimgblog.jpg" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Activity 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <div className="card-actions justify-end">
+                  <button className="btn bg-red-500 text-white">Start</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+          </div>
           <div className="rounded h-40 shadow-sm h-60 w-60">
             <p>Missions</p>
             <div class="mission-box">
