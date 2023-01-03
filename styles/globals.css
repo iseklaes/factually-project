@@ -17,7 +17,7 @@ body {
 
 /*Mission Box Classes*/
 .mission-box {
-  @apply flex justify-between items-center h-16 p-4 my-6  rounded-lg border border-gray-100 shadow-md
+  @apply flex justify-between items-center h-16 p-4 my-2  rounded-lg border border-gray-100 shadow-md
 }
 
 .button-red {
