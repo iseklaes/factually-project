@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="rounded h-40 shadow-sm h-60 w-60">
+          <div className="rounded shadow-sm h-60 w-60">
             <p className="text-slate-900 text-lg mb-15">Missions</p>
             <div class="mission-box">
               <div class="flex items-center">
