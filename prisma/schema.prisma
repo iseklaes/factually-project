@@ -7,5 +7,5 @@ generator client {
 
 datasource db {
   provider = "sqlserver"
-  url      = "sqlserver://25.61.68.171:1433;database=factually_db;user=admin1;password=123123123;encrypt=true"
+  url      = env("DATABASE_URL")
 }
