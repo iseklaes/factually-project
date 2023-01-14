@@ -1,4 +1,8 @@
+import { useRouter } from "next/router";
+
 export default function Home() {
+
+  const router = useRouter()
   return (
     <>
       <p className="text-gray-700 text-4xl font-semibold">Hello, Jonas!</p>
@@ -14,7 +18,7 @@ export default function Home() {
                 <h2 className="card-title">Activity 1</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 <div className="card-actions justify-end">
-                  <button className="btn bg-red-500 text-white">Start</button>
+                  <button className="btn bg-red-500 text-white" onClick={() => router.push('/')}>Start</button>
                 </div>
               </div>
             </div>

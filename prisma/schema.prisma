@@ -9,3 +9,11 @@ datasource db {
   provider = "sqlserver"
   url      = env("DATABASE_URL")
 }
+
+model UserInfo {
+  id String @id @default(cuid())
+  firstName String
+  lastName String
+  email String
+  password String  
+}
